@@ -16,4 +16,11 @@
 5.
 	I see a panel in which I can manage models as well as groups and users. It looks like I can add items to the database here as well as
 	potentially change the schema.
-6.
+6
+	When entering /polls/38 I get the response "You're looking at question 38", /polls/38/results gives the response "You're looking at the results of question 38."
+	and /polls/38/vote gives the response "You're voting on question 38.". When entering a string such as /polls/hello I am given a 404 response.
+7.
+	Hardcoding the url could lead to errors in the future and makes the application less scaleable.
+8.
+	Faster to get a site running if you are willing to use the generic views and you don't have to write as much boiler plate. Also you don't need to know as much
+	about what Django is doing under the hood as it handles various views for you. Using your own views allows for greater flexibility and customization.	
