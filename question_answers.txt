@@ -1,0 +1,19 @@
+1.
+	https://github.com/Chase-Warwick/CMPUT404-Lab-4
+2.
+	A rocket ship taking off with the message "The install worked successfully! Congratulations! 
+	You are seeing this page because DEBUG=True is in your settings file and you have not configured any URLs."
+3.
+	At page / I saw a 404 error with the message "Using the URLconf defined in mysite.urls, Django tried these URL patterns, 
+	in this order:
+    		polls/
+    		admin/
+	The empty path didn't match any of these."
+	
+	At page polls/ I saw the message "Hello, world. You're at the polls index."
+4.
+	Migrations update the database schema to include new models
+5.
+	I see a panel in which I can manage models as well as groups and users. It looks like I can add items to the database here as well as
+	potentially change the schema.
+6.
